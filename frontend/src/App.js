@@ -18,12 +18,14 @@ import Landingpage from "./pages/landing/Landingpage";
 import UpdateProperty from "./pages/update_property/UpdateProperty";
 import UserProfile from "./pages/user/UserProfile";
 import Wishlist from "./pages/wishlist/Wishlist";
+import FAQPage from "./pages/FAQs/faq";
 import AdminRoutes from "./protected_routes/AdminRoutes"
 import Footer from "./components/Footer";
 import Termscondition from "./pages/terms_condition/Termscondition";
 import ForgotPassword from "./pages/forgot_password/ForgotPassword";
 import SwitchNavbar from "./components/SwitchNavbar";
 import BookingList from "./pages/admin/Booking list/BookingList";
+
 
 import MyBookings from "./pages/userBooking/MyBookings";
 import ContactUs from "./pages/contactUs/ContactUs";
@@ -42,6 +44,7 @@ function App() {
         <Route path='/register' element={<Register />} />
         <Route path='/about/us' element={<Aboutus />} />
         <Route path='/homepage' element={<Homepage />} />
+        <Route path="/faq" element={<FAQPage />} />
 
         {/*Admin routes*/}
         <Route element={<AdminRoutes />}>
@@ -53,10 +56,11 @@ function App() {
 
         <Route path="/user/profile" element={<UserProfile />} />
         <Route path="/homepage/view/:id" element={<ViewProperty />} />
+        <Route path="/faq" element={<FAQPage />} />
         <Route path="/wishlist" element={<Wishlist />} />
         <Route path="/terms_condition" element={<Termscondition/>}/>
         <Route path="/forgot_password" element={<ForgotPassword/>}/>
-        {/* <Route path="/khalti" element={<khalti/>}/> */}
+        <Route path="/khalti" element={<khalti/>}/>
         <Route path="/contact_us" element={<ContactUs/>}/>
         <Route path="/my_bookings" element={<MyBookings />} />
         <Route path="/property" element={<Properties />} />

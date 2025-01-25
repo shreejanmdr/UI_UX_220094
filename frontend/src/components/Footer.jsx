@@ -45,8 +45,11 @@ const Footer = () => {
               <Link href="/homepage" underline="hover" color="textPrimary" display="block">
                 <FaAnglesRight color='#083775' /> Home
               </Link>
-              <Link href="/about/us" underline="hover" color="textPrimary" display="block">
+              <Link href="/faq" underline="hover" color="textPrimary" display="block">
                 <FaAnglesRight color='#083775' /> FAQs
+              </Link>
+              <Link href="/about/us" underline="hover" color="textPrimary" display="block">
+                <FaAnglesRight color='#083775' /> HowItWorks
               </Link>
               <Link href="/contact_us" underline="hover" color="textPrimary" display="block">
                 <FaAnglesRight color='#083775' /> Contact Us

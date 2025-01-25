@@ -1,3 +1,5 @@
+
+
 import React, { useState } from "react";
 import {
   Box,
@@ -15,7 +17,7 @@ const faqData = {
   "Getting Started": [
     {
       question: "What is ForRent?",
-      answer: "ForRent is a platform that connects property owners with renters looking for homes, apartments, and rooms.",
+      answer: "ForRent is a platform that connects property owners with renters looking for homes, apartments and rooms.",
     },
     {
       question: "How do I create an account?",
@@ -25,43 +27,28 @@ const faqData = {
   Tenants: [
     {
       question: "How can I search for properties?",
-      answer: "Use the search bar to filter properties by location, price, and type.",
+      answer: "Use the search bar to filter properties by location, price and type.",
     },
     {
       question: "Can I save properties for later?",
       answer: "Yes, use the 'Wishlist' feature to save properties you're interested in.",
     },
+    {
+      question: "Can I post a review?",
+      answer: "Yes, use the 'rate and review' feature.",
+    },
   ],
   Owner: [
     {
       question: "How do I list a property?",
-      answer: "Click on 'Post Property' and provide the required details, including photos and descriptions.",
+      answer: "Send a request to 'Admin' and provide the required details, including photos and descriptions by clicking at 'Contact US' page.",
     },
     {
       question: "What if I need to edit my property listing?",
-      answer: "Go to 'My Dashboard' and select the property you want to edit.",
+      answer: "Contact Admin by clicking at 'Contact US' ",
     },
   ],
-  Buy: [
-    {
-      question: "Can I buy properties on ForRent?",
-      answer: "Yes, explore the 'Buy' section to find properties available for purchase.",
-    },
-    {
-      question: "How does the buying process work?",
-      answer: "Contact the seller directly or use the inquiry form to start the buying process.",
-    },
-  ],
-  Sale: [
-    {
-      question: "How do I sell a property on ForRent?",
-      answer: "Create an account, click 'Post Property,' and upload all necessary details.",
-    },
-    {
-      question: "How does ForRent promote my property?",
-      answer: "We use digital marketing and direct communication with potential buyers and renters.",
-    },
-  ],
+  
 };
 
 const FAQPage = () => {
