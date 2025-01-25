@@ -78,7 +78,7 @@ const Navbar = () => {
         <Toolbar disableGutters>
           {/* Logo */}
           <Box sx={{ flexGrow: 0 }}>
-            <Link to="/" style={{ textDecoration: 'none', color: 'inherit' }}>
+            <Link to="/homepage" style={{ textDecoration: 'none', color: 'inherit' }}>
               <Box
                 component="img"
                 src="/assets/images/logo1.png"
